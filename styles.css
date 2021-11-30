@@ -2,3 +2,26 @@ body{
     background-color: bisque;
     
 }
+/* header styles */
+header {
+    background-color: brown;
+    padding: 10px 0px 10px 0px;
+}
+.coding-task {
+    background-color: cadetblue;
+    height: 1400px;
+
+}
+.Worksheet-1 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+
+}
+.Worksheet-1 .worksheet1reflection {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
+
+}
