@@ -13,10 +13,13 @@ header {
 
 }
 .Worksheet-1 {
+    height: fit-content;
+    width: auto;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     padding: 15px 25px 15px 15px;
+
 
 }
 .Worksheet-1 .worksheet1reflection {
@@ -24,4 +27,13 @@ header {
     color: navy;
     font-size: 20px;
 
+}
+.carp-task {
+    background-color: coral;
+}
+.ux-task {
+    background-color: darkgreen;
+}
+.type-task {
+    background-color: darkseagreen;
 }
