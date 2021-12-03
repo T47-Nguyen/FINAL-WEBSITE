@@ -1,11 +1,38 @@
 body{
     background-color: bisque;
+    margin: 0;
+    font-family: 'Poppins';
+
+}
+.navbar {
+    background: white;
+    padding: 1em;
+       
+}
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 4em;
+
+}
+.span {
+    color: var(--primary-color);
     
 }
+.nav {
+    display: none;
+}
+.container {
+    display: flex;
+    place-content: space-between;
+}
+
 /* header styles */
 header {
     background-color: brown;
     padding: 10px 0px 10px 0px;
+    
 }
 .coding-task {
     background-color: cadetblue;
