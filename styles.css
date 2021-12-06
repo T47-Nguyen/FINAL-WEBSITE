@@ -1,3 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.hero-container{
+ min-height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+#hero{
+    background-image: url(./img/hero1-bg.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 10px;
+
+
+}
+#hero ::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+
+}
+#herobh1:nth-child(1){
+    animation-delay: 1.5s;
+}
+#herobh1:nth-child(2){
+    animation-delay: 2.5s;
+}
+#herobh1:nth-child(3){
+    animation-delay: 3.5s;
+}
+#hero h1{
+    display: 0;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+    animation: text_reveal 1s ease forwards;
+    animation-delay: 1.0 s;
+#hero h1:nth-child(1) span{
+animation-delay: 1s;
+}
+#hero h1 span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background-color: crimson;
+    animation: text_reveal-box 1s ease;
+    animation-delay: 1s;
+}
+#hero-cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: crimson;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease background-color;
+}
+
+#hero .hero-container .button .cta:hover{
+    color: white;
+    background-color: tomato;
+}
+ @keyframes text_reveal_box{
+     50%{
+         width: 100%;
+         left: 0;
+     }
+     100%{
+         width: 0;
+         left: 100%;
+     }
+ }
 body{
     background-color: bisque;
     margin: 0;
@@ -7,6 +106,8 @@ body{
 .navbar {
     background: white;
     padding: 1em;
+    text-decoration: none;
+
        
 }
 .logo {
@@ -26,6 +127,12 @@ body{
 .container {
     display: flex;
     place-content: space-between;
+        
+}
+.container .primary-nav {
+     margin: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
 }
 
 /* header styles */

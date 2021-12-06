@@ -1,0 +1,82 @@
+.container{
+ min-height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+body{
+    background-color: bisque;
+    margin: 0;
+    font-family: 'Poppins';
+
+}
+.navbar {
+    background: white;
+    padding: 1em;
+    text-decoration: none;
+
+       
+}
+.logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 4em;
+
+}
+.span {
+    color: var(--primary-color);
+    
+}
+.nav {
+    display: none;
+}
+.container {
+    display: flex;
+    place-content: space-between;
+        
+}
+.container .primary-nav {
+     margin: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+/* header styles */
+header {
+    background-color: brown;
+    padding: 10px 0px 10px 0px;
+    
+}
+.coding-task {
+    background-color: cadetblue;
+    height: 1400px;
+
+}
+.Worksheet-1 {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+
+
+}
+.Worksheet-1 .worksheet1reflection {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
+
+}
+.carp-task {
+    background-color: coral;
+}
+.ux-task {
+    background-color: darkgreen;
+}
+.type-task {
+    background-color: darkseagreen;
+}
